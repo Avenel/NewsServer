@@ -40,7 +40,7 @@ class NewsController < ApplicationController
 
       downloadWebsite(domain, site_master, file_master)
       downloadWebsite(domain, site_bachelor, file_bachelor)
-      downloadWebsite(domain, site_master, file_general)
+      downloadWebsite(domain, site_general, file_general)
 
       
 
@@ -146,15 +146,26 @@ class NewsController < ApplicationController
     Rails.logger.info("Fetching Data for #{organisation}")
     doc.css('.csc-default').each do |cwrapper|
       news = News.new
-      news.title = cwrapper.css('.content-center-inner').text.rstrip.lstrip
+
+      if organisation != "IWI" then
+        news.title = cwrapper.css('.content-center-inner').text.rstrip.lstrip
+        news.content = cwrapper.css('.content-right-inner').text.rstrip.lstrip
+        news.date = Time.new.strftime("%d.%m.%Y")
+      else
+        Rails.logger.info(cwrapper.css('.content-right-inner').inspect)
+        news.title = cwrapper.css('.content-right-inner').css("h4").text.rstrip.lstrip
+        news.content = cwrapper.css('.content-right-inner').css("p").text.rstrip.lstrip
+        news.date = Time.zone.parse(cwrapper.css('.content-right-inner').css("h3").text)
+        if !news.date.nil? then
+          news.date = news.date.strftime("%Y-%m-%d")
+        end
+      end
 
       if news.title.empty? then 
         Rails.logger.info("No title for #{organisation}")
         next
       end
 
-      news.content = cwrapper.css('.content-right-inner').text.rstrip.lstrip
-      news.date = Time.new.strftime("%d.%m.%Y")
       news.organisation = "[#{organisation}]"
       news.id = @newsCount
       news.save
