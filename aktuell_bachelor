@@ -1,0 +1,313 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	punkt.de GmbH · http://www.punkt.de · Copyright · All rights reserved
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2010 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+<base href="http://www.hs-karlsruhe.de/" />
+
+
+<meta name="generator" content="TYPO3 4.4 CMS" />
+<meta name="keywords" content="keyword, global, defined, in, the, constants," />
+
+<script src="uploads/tx_t3jquery/jquery-1.7.x-1.8.x.js" type="text/javascript"></script>
+<script src="typo3temp/javascript_92bc0eb2aa.js" type="text/javascript"></script>
+
+
+<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>Hochschule Karlsruhe – Technik und Wirtschaft (HsKA) &ndash; Aktuell </title><link rel="shortcut icon" href="http://www.hs-karlsruhe.de/favicon.ico" type="image/x-icon" /><link rel="icon" href="http://www.hs-karlsruhe.de/favicon.ico" type="image/x-icon" /><script type="text/javascript" src="typo3conf/ext/perfectlightbox/res/js/slimbox.2.0.4.yui.js"></script><script type="text/javascript">
+	SlimboxOptions.resizeSpeed = 400;
+	SlimboxOptions.overlayOpacity = 0.8;
+	SlimboxOptions.loop = true;
+	SlimboxOptions.allowSave = false;
+	SlimboxOptions.slideshowAutoplay = false;
+	SlimboxOptions.slideshowInterval = 5000;
+	SlimboxOptions.slideshowAutoclose = true;
+	SlimboxOptions.counterText = 'Bild ###x### von ###y###';</script>
+
+
+	<link rel="stylesheet" type="text/css" media="all" href="typo3temp/scriptmerger/uncompressed/head-ee55521c7cc9ad6384caaa6d19ae386a.merged.css" />
+	<link rel="stylesheet" type="text/css" media="print" href="typo3temp/scriptmerger/uncompressed/head-8cd2564facafc50cfcb1da88f64ff3d3.merged.css" />
+	<link rel="stylesheet" type="text/css" media="screen,projection" href="typo3temp/scriptmerger/uncompressed/head-3f975340341142e0995e21340ceee7b1.merged.css" />
+<!--[if IE]><link rel="stylesheet" type="text/css" href="fileadmin/_t3templates/css/ie.css" media="all" /><![endif]-->
+
+</head>
+<body id="pid-1411" class="pt-01-01">
+
+
+		<div id="page" class="container-960">
+			<div id="header">
+				<div id="toolbar">
+					<div id="meta-navigation"><ul class="horizontal-navigation"><li><a href="meta-navigation/schueler.html" title="Schüler">Schüler</a></li><li><a href="meta-navigation/alumni.html" title="Alumni">Alumni</a></li><li><a href="meta-navigation/unternehmen.html" title="Unternehmen">Unternehmen</a></li></ul></div>
+					<div id="search"><form action="nc/suche.html" method="post" name="tx_indexedsearch_mini">		<label for="suche">Suche</label>
+		<input id="suche" type="text" name="tx_indexedsearch[sword]" value="" class="text" onblur="if(this.value=='') this.value = this.defaultValue;" onfocus="if(this.value==this.defaultValue) this.value='';" />
+		<input type="submit" name="tx_indexedsearch[submit_button]" value="Suchen" class="button" title="Suchen" /></form></div>
+					<div id="language-navigation"><a href="en/home.html">English Site</a></div>
+					<div id="fontsizer"><div class="fontsizer-buttons"><a href="" class="decreaseFont">A-</a><a href="" class="resetFont">a</a><a href="" class="increaseFont">A+</a></div></div>
+					<div id="print-tools"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/aktuell/drucken.html" target="blank"><img src="fileadmin/_t3templates/images/icon_print_page.png" width="100%" height="100%" style="width:1.6em;height:1.6em;" alt="Drucken" title="Drucken" /></a><img src="fileadmin/_t3templates/images/icon_print_pdf.png" width="100%" height="100%" style="width:1.6em;height:1.6em;" alt="PDF drucken" title="PDF drucken" /></div>
+				</div>
+				<div id="logo"><a href="home.html"><img src="fileadmin/_t3templates/images/hska_logo_RGB_small.jpg" alt="Hochschule Karlsruhe – Technik und Wirtschaft (HsKA)" title="" /></a></div>
+				<div id="main-navigation"><ul class="horizontal-navigation"><li class="first dir pid-11"><a href="studieninteressierte.html" class="first l1 ifsub dir uid-11"><span>Studieninteressierte</span></a></li><li class="dir pid-12"><a href="studierende.html" class="l1 ifsub dir uid-12"><span>Studierende</span></a></li><li class="active pid-13"><a href="fakultaeten.html" class="l1 actifsub dir uid-13"><span>Fakultäten</span></a></li><li class="dir pid-59"><a href="hochschule.html" class="l1 ifsub dir uid-59"><span>Hochschule</span></a></li><li class="dir pid-60"><a href="forschung.html" class="l1 ifsub dir uid-60"><span>Forschung</span></a></li><li class="dir pid-61"><a href="internationales.html" class="l1 ifsub dir uid-61"><span>Internationales</span></a></li><li class="dir pid-62"><a href="weiterbildung.html" class="l1 ifsub dir uid-62"><span>Weiterbildung</span></a></li><li class="last dir pid-63"><a href="termine.html" class="last l1 ifsub dir uid-63"><span>Termine</span></a></li></ul></div>
+				<div id="breadcrumb"><div id="breadcrumb-inner"><a href="home.html" title="Home">Home</a> &#32;&gt;&#32;<a href="fakultaeten.html" title="Fakultäten">Fakultäten</a> &#32;&gt;&#32;<a href="fakultaeten/fk-iwi.html" title="Informatik und Wirtschaftsinformatik">Informatik und Wirtschaftsinformatik</a> &#32;&gt;&#32;<a href="fakultaeten/informatik-und-wirtschaftsinformatik/bachelorstudiengaenge.html" title="Bachelorstudiengänge">Bachelorstudiengänge</a> &#32;&gt;&#32;<a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib.html" title="Informatik">Informatik</a> &#32;&gt;&#32;<a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/aktuell.html" title="Aktuell">Aktuell</a></div></div>
+				<div id="alternative-page-title"><h1 id="alternative-page-title-inner"></h1></div><div id="urlPrint">www.hs-karlsruhe.de/fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/aktuell.html</div>
+			</div>
+			<div id="main">
+				<div id="sidebar-left" class="span-4">
+		<div id="sidebar-left-inner"><ul id="sub-navigation" class="vertical-navigation"><li class="fakultaet_hide"><a href="fakultaeten/fk-ab.html" class="first l1 ifsub dir uid-105"><span>Architektur und Bauwesen</span></a></li><li class="fakultaet_hide"><a href="fakultaeten/fk-eit.html" class="l1 ifsub dir uid-104"><span>Elektro- und Informationstechnik</span></a></li><li class="l1 actifsub uid-102"><h1><a href="fakultaeten/fk-iwi.html" class="fakultaet_headline"><span>Fakultät für </span>Informatik und Wirtschaftsinformatik</a></h1><ul class="cur_fakultaet"><li class="first dir pid-999"><a href="fakultaeten/fk-iwi/aktuelles.html" class="first l2 ifsub uid-999"><span>Aktuelles</span></a></li><li class="dir pid-1004"><a href="fakultaeten/fk-iwi/ueber-uns.html" class="l2 ifsub uid-1004"><span>Über uns</span></a></li><li class="active pid-1382"><a href="fakultaeten/informatik-und-wirtschaftsinformatik/bachelorstudiengaenge.html" class="l2 actifsub uid-1382"><span>Bachelorstudiengänge</span></a><ul><li class="first active pid-1398"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib.html" class="first l3 actifsub uid-1398"><span>Informatik</span></a><ul><li class="first pid-1412"><a href="fakultaeten/informatik-und-wirtschaftsinformatik/bachelorstudiengaenge/informatik/steckbrief.html" class="first l4 uid-1412"><span>Steckbrief</span></a></li><li class="active pid-1411"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/aktuell.html" class="l4 cur uid-1411"><span>Aktuell</span></a></li><li class="pid-1407"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/erstsemesterinfofaq.html" class="l4 uid-1407"><span>Erstsemesterinfo/FAQ</span></a></li><li class="pid-1404"><a href="fakultaeten/informatik-und-wirtschaftsinformatik/bachelorstudiengaenge/informatik/studienplan.html" class="l4 uid-1404"><span>Studienplan</span></a></li><li class="pid-1405"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/stundenplan.html" class="l4 uid-1405"><span>Stundenplan</span></a></li><li class="pid-1406"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/lehrinhalte.html" class="l4 uid-1406"><span>Lehrinhalte</span></a></li><li class="pid-1403"><a href="fakultaeten/informatik-und-wirtschaftsinformatik/bachelorstudiengaenge/informatik/leitung-und-gremien.html" class="l4 uid-1403"><span>Leitung und Gremien</span></a></li><li class="pid-1402"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/downloads-spo-etc.html" class="l4 uid-1402"><span>Downloads: SPO etc.</span></a></li><li class="pid-2982"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/software-und-zertifikate.html" class="l4 uid-2982"><span>Software und Zertifikate</span></a></li><li class="pid-2627"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/sprechzeiten.html" class="l4 uid-2627"><span>Sprechzeiten</span></a></li><li class="pid-3101"><a href="fakultaeten/informatik-und-wirtschaftsinformatik/bachelorstudiengaenge/informatik/praxisboerse.html" target="_blank" class="l4 uid-3101"><span>Praxisbörse</span></a></li><li class="pid-2553"><a href="fakultaeten/informatik-und-wirtschaftsinformatik/bachelorstudiengaenge/informatik/links.html" class="l4 uid-2553"><span>Links</span></a></li><li class="pid-2635"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/blockveranstaltungen.html" class="l4 uid-2635"><span>Blockveranstaltungen</span></a></li><li class="pid-2639"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/wahlpflichtfaecher.html" class="l4 uid-2639"><span>Wahlpflichtfächer</span></a></li><li class="last pid-2629"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/tutorien.html" class="last l4 uid-2629"><span>Tutorien</span></a></li></ul></li><li class="dir pid-3690"><a href="fk-iwi/mki.html" class="l3 ifsub uid-3690"><span>Medien- und Kommunikationsinformatik</span></a></li><li class="last dir pid-1383"><a href="fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiwib.html" class="last l3 ifsub uid-1383"><span>Wirtschaftsinformatik</span></a></li></ul></li><li class="dir pid-1351"><a href="fakultaeten/informatik-und-wirtschaftsinformatik/masterstudiengaenge.html" class="l2 ifsub uid-1351"><span>Masterstudiengänge</span></a></li><li class="dir pid-4924"><a href="fakultaeten/fk-iwi/forschung.html" class="l2 ifsub uid-4924"><span>Forschung</span></a></li><li class="dir pid-1333"><a href="fakultaeten/fk-iwi/lehre.html" class="l2 ifsub uid-1333"><span>Lehre</span></a></li><li class="dir pid-4723"><a href="fakultaeten/fk-iwi/internationales.html" class="l2 ifsub uid-4723"><span>Internationales</span></a></li><li class="dir pid-1340"><a href="fakultaeten/fk-iwi/poolslaborewerkstaetten.html" class="l2 ifsub uid-1340"><span>Pools/Labore/Werkstätten</span></a></li><li class="dir pid-1347"><a href="fakultaeten/informatik-und-wirtschaftsinformatik/gremien.html" class="l2 ifsub uid-1347"><span>Gremien</span></a></li><li class="last dir pid-1343"><a href="fakultaeten/informatik-und-wirtschaftsinformatik/personen.html" class="last l2 ifsub uid-1343"><span>Personen</span></a></li></ul></li><li class="fakultaet_hide"><a href="fakultaeten/imm.html" class="l1 ifsub dir uid-3874"><span>Informationsmanagement und Medien</span></a></li><li class="fakultaet_hide"><a href="fakultaeten/fk-mmt.html" class="l1 ifsub dir uid-101"><span>Maschinenbau und Mechatronik</span></a></li><li class="fakultaet_hide"><a href="fakultaeten/w.html" class="last l1 ifsub dir uid-100"><span>Wirtschaftswissenschaften</span></a></li></ul></div>
+	</div>			
+				<div id="content" class="span-12 with-banner">
+		<div id="content-inner"><!--TYPO3SEARCH_begin--><div class="content">
+			<h2 class="pagetitle">Aktuell - Bachelorstudiengang Informatik </h2>
+		</div><!--TYPO3SEARCH_end--><div class="span-12 last"><!--TYPO3SEARCH_begin--><div id="c18742" class="csc-default">
+			
+		<!-- 3.01 Template N -->
+		<div class="box box-17">
+			<div class="content-left span-3">
+				<div class="content-left-inner">
+					<div class="image-wrapper">
+						
+					</div>
+				</div>	
+			</div>
+			<div class="content-center span-3">
+				<div class="content-center-inner content">
+					<h4>Praxisnachbereitung</h4>
+				</div>
+			</div>			
+			<div class="content-right span-6 last">
+				<div class="content-right-inner content"><h5>Uhrzeiten</h5>
+<p>Gruppe 1: 16. + 17. + 23.09 9h - 17:30h, 18.09. 9:00h - 12:00h Gruppe 2: 18.09. 12:30h - 17:00h, 19. + 20. + 24.09. 9h - 17:30h<br /><br />die genauen Endzeiten des Präsenzteils stoffabhängig </p></div>
+			</div>
+		</div>
+		<!-- 3.01 Template N -->	
+		
+	</div><div id="c18688" class="csc-default">
+			
+		<!-- 3.01 Template N -->
+		<div class="box box-17">
+			<div class="content-left span-3">
+				<div class="content-left-inner">
+					<div class="image-wrapper">
+						
+					</div>
+				</div>	
+			</div>
+			<div class="content-center span-3">
+				<div class="content-center-inner content">
+					<h4>Bachelor Vorzeugnisse</h4>
+				</div>
+			</div>			
+			<div class="content-right span-6 last">
+				<div class="content-right-inner content"><h5>Abholung</h5>
+<p>Die Bachelor Vorzeugnisse können ab sofort im Sekretariat abgeholt werden.</p></div>
+			</div>
+		</div>
+		<!-- 3.01 Template N -->	
+		
+	</div><div id="c18701" class="csc-default">
+			
+		<!-- 3.01 Template N -->
+		<div class="box box-17">
+			<div class="content-left span-3">
+				<div class="content-left-inner">
+					<div class="image-wrapper">
+						
+					</div>
+				</div>	
+			</div>
+			<div class="content-center span-3">
+				<div class="content-center-inner content">
+					<h4>Seminar WS 13/14 Vorbesprechung</h4>
+				</div>
+			</div>			
+			<div class="content-right span-6 last">
+				<div class="content-right-inner content"><p><strong>Termin zur Vorbesprechung (Teilnahmepflicht)</strong><br />Mittwoch, 9.10.2013, 11:30 Uhr, Raum E201</p>
+<p><strong>Seminaranmeldung</strong> über das <a href="http://iwi-i-intra-01.hs-karlsruhe.de/Intranet/faces/login.xhtml" target="_blank" class="extern">Web </a><br />Als Login dient ihr IZ-Account. <br /><br /><strong>Weitere Informationen</strong><br />finden sie am Seminar-Infoboard vor dem Sekretariat, dort gibt es ab dem 1.10.2013 auch Aushänge zu Betreuer/innen und speziellen Seminarthemen. </p></div>
+			</div>
+		</div>
+		<!-- 3.01 Template N -->	
+		
+	</div><div id="c18702" class="csc-default">
+			
+		<!-- 3.01 Template N -->
+		<div class="box box-17">
+			<div class="content-left span-3">
+				<div class="content-left-inner">
+					<div class="image-wrapper">
+						
+					</div>
+				</div>	
+			</div>
+			<div class="content-center span-3">
+				<div class="content-center-inner content">
+					<h4>Seminar SS 2014</h4>
+				</div>
+			</div>			
+			<div class="content-right span-6 last">
+				<div class="content-right-inner content"><h5>Wichtige Änderung - Neue Voraussetzung</h5>
+<p>Ab dem Sommersemester 2014 ist das Bestehen der Veranstaltung &quot;Wissenschaftliches Schreiben&quot; Voraussetzung für den Besuch des Seminars. </p></div>
+			</div>
+		</div>
+		<!-- 3.01 Template N -->	
+		
+	</div><div id="c18704" class="csc-default">
+			
+		<!-- 3.01 Template N -->
+		<div class="box box-17">
+			<div class="content-left span-3">
+				<div class="content-left-inner">
+					<div class="image-wrapper">
+						
+					</div>
+				</div>	
+			</div>
+			<div class="content-center span-3">
+				<div class="content-center-inner content">
+					<h4>Wissenschaftliches Schreiben</h4>
+				</div>
+			</div>			
+			<div class="content-right span-6 last">
+				<div class="content-right-inner content"><h5>Termine der Blockveranstaltung</h5>
+<p>Do. 26.9., Fr. 27.9. und Mo. 30.9.2013.<br />Zum Bestehen ist der Besuch aller drei Termine und die Abgabe einer Hausarbeit erforderlich.<br /><br /><strong>Hinweis<br /></strong>Diese Veranstaltung ist ab SS 2014 Voraussetzung für die Teilnahme am Seminar.</p></div>
+			</div>
+		</div>
+		<!-- 3.01 Template N -->	
+		
+	</div><div id="c18192" class="csc-default">
+			
+		<!-- 3.01 Template N -->
+		<div class="box box-17">
+			<div class="content-left span-3">
+				<div class="content-left-inner">
+					<div class="image-wrapper">
+						
+					</div>
+				</div>	
+			</div>
+			<div class="content-center span-3">
+				<div class="content-center-inner content">
+					<h4>Automatisierungslabor Vorbesprechung</h4>
+				</div>
+			</div>			
+			<div class="content-right span-6 last">
+				<div class="content-right-inner content"><h5>Termin</h5>
+<p>Di. 8.10.2013, 14:00 Uhr,&nbsp; Raum E 201</p></div>
+			</div>
+		</div>
+		<!-- 3.01 Template N -->	
+		
+	</div><div id="c18454" class="csc-default">
+			
+		<!-- 3.01 Template N -->
+		<div class="box box-17">
+			<div class="content-left span-3">
+				<div class="content-left-inner">
+					<div class="image-wrapper">
+						
+					</div>
+				</div>	
+			</div>
+			<div class="content-center span-3">
+				<div class="content-center-inner content">
+					<h4>Absolventenfeier Fachgebiet Informatik</h4>
+				</div>
+			</div>			
+			<div class="content-right span-6 last">
+				<div class="content-right-inner content"><h5><strong>Termin</strong></h5>
+<p>Freitag, 18. Oktober 2013, 17:00 Uhr<br />Versand der Einladungen: Mitte September</p></div>
+			</div>
+		</div>
+		<!-- 3.01 Template N -->	
+		
+	</div><!--TYPO3SEARCH_end--></div></div>
+	</div>
+				<div id="sidebar-right" class="span-4 last">
+		<div id="sidebar-right-inner"><div class="content"><!--TYPO3SEARCH_begin--><div id="c7234" class="csc-default"><div class="tx-pthskaadmin-pi1">
+	
+
+	<h5>Kontakt</h5>
+	<p>
+	
+		Sekretariat
+	
+</p>
+<p>
+	
+		Fakultät für Informatik und Wirtschaftsinformatik
+	
+</p>
+<p>
+	
+		Frau Schwarz<br />
+Frau Wetzel
+	
+</p>
+
+<p>
+	
+		Gebäude E, Raum 208
+		<br />
+	
+	
+		Moltkestr. 30
+		<br />
+		76133 Karlsruhe
+	
+</p>
+<p>
+	
+		Tel.
+		+49(0)721 925-1508
+		<br />
+	
+	
+		Fax
+		+49(0)721 925-1509
+	
+	<br />
+	<a href="javascript:linkTo_UnCryptMailto('kygjrm8qcipcrypgyr,g,gugYfq+iypjqpsfc,bc');">sekretariat.i.iwi[at]hs-karlsruhe.de</a>
+</p>
+<p>
+	<a href="fileadmin/media/maps/Zufahrtsplan_HsKA_A4-RGB.pdf" class="intern" target="_blank">Anfahrtsplan</a>
+	<br />
+	
+		<a href="fileadmin/media/maps/Gebaeudeplan_HsKA_A4-RGB.pdf" class="intern" target="_blank">Lage- und Gebäudeplan</a>
+	
+</p>
+
+
+
+</div></div><!--TYPO3SEARCH_end--></div></div>
+	</div>
+			
+			</div>
+			<div id="footer"><div id="footer-left"><ul class="horizontal-navigation"><li><a href="impressum.html" title="Impressum">Impressum</a></li><li><a href="sitemap.html" title="Sitemap">Sitemap</a></li><li><a href="rsshska-feedxml.html" target="_blank" title="RSS-Feed">RSS-Feed</a></li><li><a href="extrahertz.html" title="ExtraHertz">ExtraHertz</a></li><li><a href="hska-radio.html" title="HsKA-Radio">HsKA-Radio</a></li><li><a href="downloads.html" title="Downloads">Downloads</a></li><li class="last"><a href="online-services.html" title="Online-Services">Online-Services</a></li></ul></div><div id="footer-right"><ul class="horizontal-navigation"><li><a href="login.html" >Anmelden</a></li></ul></div></div>
+		</div>
+<script src="fileadmin/_t3templates/javascript/jquery/jquery.syncheight.js" type="text/javascript"></script>
+<script src="fileadmin/_t3templates/javascript/jquery/jquery.socialshareprivacy.min.js" type="text/javascript"></script>
+<script src="fileadmin/_t3templates/javascript/campo.js" type="text/javascript"></script>
+<script src="http://cdn.jquerytools.org/1.2.5/form/jquery.tools.min.js" type="text/javascript"></script>
+<script src="http://cdn.jquerytools.org/1.2.5/tiny/jquery.tools.min.js" type="text/javascript"></script>
+
+
+<!-- Start B-Net1 Piwik Tag --><script type="text/javascript" src="http://www.hs-karlsruhe.de/piwik/piwik.js"></script><script type="text/javascript">
+<!--
+try {
+var piwikTracker = Piwik.getTracker("http://www.hs-karlsruhe.de/piwik/piwik.php", 1);
+piwikTracker.enableLinkTracking();
+piwikTracker.trackPageView();
+} catch( err ) {}
+//-->
+</script><noscript><p><img src="http://www.hs-karlsruhe.de/piwik/piwik.php?idsite=1" style="border:0" alt="piwik"/></p></noscript><!-- End B-Net1 Piwik Tag --></body>
+</html>
