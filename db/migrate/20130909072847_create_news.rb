@@ -1,8 +1,8 @@
 class CreateNews < ActiveRecord::Migration
   def change
     create_table :news do |t|
-      t.string :title
-      t.string :content
+      t.text :title
+      t.text :content
       t.string :organisation
       t.date :date
 
