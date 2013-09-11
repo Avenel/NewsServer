@@ -10,6 +10,8 @@ class NewsController < ApplicationController
     headers['Access-Control-Request-Method'] = '*' 
   end
 
+  @@lastFetch = Time.now
+
   # GET /news
   # GET /news.json
   def index
@@ -18,23 +20,39 @@ class NewsController < ApplicationController
     site_bachelor = '/fakultaeten/fk-iwi/bachelorstudiengaenge/fk-iwiib/aktuell.html'    
     site_general = '/fakultaeten/fk-iwi/aktuelles.html'
 
-    file_master = "aktuell_master"
-    file_bachelor = "aktuell_bachelor"
-    file_general = "aktuell_general"
+    file_master = "aktuell_master.html"
+    file_bachelor = "aktuell_bachelor.html"
+    file_general = "aktuell_general.html"
 
-    downloadWebsite(domain, site_master, file_master)
-    downloadWebsite(domain, site_bachelor, file_bachelor)
-    downloadWebsite(domain, site_master, file_general)
+    # If the data is too old, fetch new data
+    Rails.logger.info("data is too old?")
+    Rails.logger.info("age: " + (Time.now - @@lastFetch).to_s)
+    @news = News.find(:all)
 
-    # delete all stored news
-    @news = Array.new
-    News.delete_all
-    @newsCount = 1
+    if Time.now - @@lastFetch > 2.hour or @news.empty? then 
+      Rails.logger.info("fetching new data!")
+      # delete all stored news
+      @news = Array.new
+      News.delete_all
+      @newsCount = 1
 
-    # Fetch Bachelor News
-    parseForNews(file_master, "IM")
-    parseForNews(file_bachelor, "IB")
-    parseForNews(file_general, "IWI")
+
+
+      downloadWebsite(domain, site_master, file_master)
+      downloadWebsite(domain, site_bachelor, file_bachelor)
+      downloadWebsite(domain, site_master, file_general)
+
+      
+
+      # Fetch Bachelor News
+      parseForNews(file_master, "IM")
+      parseForNews(file_bachelor, "IB")
+      parseForNews(file_general, "IWI")
+
+      @@lastFetch = Time.now
+    end
+
+    @updated_at = @@lastFetch
 
     respond_to do |format|
       format.html # index.html.erb
@@ -125,12 +143,14 @@ class NewsController < ApplicationController
 
   def parseForNews(file, organisation) 
     doc = Nokogiri::HTML(File.open(file))
+    Rails.logger.info("Fetching Data for #{organisation}")
     doc.css('.csc-default').each do |cwrapper|
       news = News.new
       news.title = cwrapper.css('.content-center-inner').text.rstrip.lstrip
 
       if news.title.empty? then 
-        break
+        Rails.logger.info("No title for #{organisation}")
+        next
       end
 
       news.content = cwrapper.css('.content-right-inner').text.rstrip.lstrip
@@ -138,7 +158,9 @@ class NewsController < ApplicationController
       news.organisation = "[#{organisation}]"
       news.id = @newsCount
       news.save
-      puts news.inspect
+      
+      Rails.logger.info("New News for #{organisation} #{news.title}")
+
       @newsCount += 1
       @news.push(news)
     end 
