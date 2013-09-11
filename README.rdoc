@@ -1,5 +1,5 @@
 == NewsServer
 
-Dieser in RoR geschriebene Server, greift die Daten des "Schwarzen Bretts" einer bekannten Hochschule ab und stellt sie via JSON zur Verfügung.
+Dieser, in RoR geschriebene Server, greift die Daten des "Schwarzen Bretts" einer bekannten Hochschule ab und stellt sie via JSON zur Verfügung.
 
 Dieser Dienst wurde geschaffen, um dem mgwt Projekt: https://github.com/Avenel/MGWTBasic die benötigten Daten zu liefern.
