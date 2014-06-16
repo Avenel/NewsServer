@@ -1,2 +1,24 @@
 <h1>MateStock#index</h1>
-<p>Find me in app/views/mate_stock/index.html.erb</p>
+
+
+<%= form_for(@mateStock) do |f| %>
+  <div class="field">
+    <%= f.label :mateOriginal  %><br />
+    <%= f.text_field :mateOriginal %>
+  </div>
+  <div class="field">
+    <%= f.label :mateCola %><br />
+    <%= f.text_field :mateCola %>
+  </div>
+  <div class="field">
+    <%= f.label :mateGranada %><br />
+    <%= f.text_field :mateGranada %>
+  </div>
+  <div class="field">
+    <%= f.label :coffee %><br />
+    <%= f.text_field :coffee %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

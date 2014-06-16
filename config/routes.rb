@@ -1,7 +1,12 @@
 NewsServer::Application.routes.draw do
-  get "mate_stock/index"
+  
 
   resources :news
+  resources :mate_stock
+
+  #get "mate_stock/index"
+  match 'mate_stock/index' => 'mate_stock#index'
+
 
 
   # The priority is based upon order of creation:
