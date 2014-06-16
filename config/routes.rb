@@ -1,4 +1,6 @@
 NewsServer::Application.routes.draw do
+  get "mate_stock/index"
+
   resources :news
 
 

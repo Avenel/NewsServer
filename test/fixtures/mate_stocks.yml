@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  mateOriginal: 1
+  mateCola: 1
+  mateGranada: 1
+  coffee: 1
+
+two:
+  mateOriginal: 1
+  mateCola: 1
+  mateGranada: 1
+  coffee: 1

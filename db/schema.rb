@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130909072847) do
+ActiveRecord::Schema.define(:version => 20140616165739) do
+
+  create_table "mate_stocks", :force => true do |t|
+    t.integer  "mateOriginal"
+    t.integer  "mateCola"
+    t.integer  "mateGranada"
+    t.integer  "coffee"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
 
   create_table "news", :force => true do |t|
     t.text     "title"

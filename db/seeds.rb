@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+MateStock.create(mateOriginal: 1, mateCola: 0, mateGranada: 0, coffee: 1)
